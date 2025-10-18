@@ -2,7 +2,8 @@
 
 click                   # cli: A package for creating beautiful command-line interfaces in a composable way.
 fastapi                 # web framework: High-performance web framework for building APIs with modern Python features.
-pydantic                # validation: Data validation and settings management using Python type annotations.
+pydantic>=2                # validation: Data validation and settings management using Python type annotations.
+pydantic-settings>=2
 requests                # http: User-friendly HTTP library for making web requests & API calls.
 sentence-transformers   # ai nlp: Compute sentence & text embeddings for tasks like clustering or semantic search.
 torch                   # ml framework: Tensors and Dynamic neural networks in Python with strong GPU acceleration (Facebook/Meta).
@@ -11,4 +12,4 @@ rich
 pytest
 pytest
 pyinstaller
-chromadb
+chromadb>=0.5.0

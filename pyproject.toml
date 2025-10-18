@@ -7,13 +7,14 @@ requires-python = ">=3.10"
 dependencies = [
     "click",
     "fastapi",
-    "pydantic",
+    "pydantic>=2",
+    "pydantic-settings>=2",
     "requests",
     "sentence-transformers",
     "torch",
     "uvicorn",
     "rich",
-    "chromadb"
+    "chromadb>=0.5.0"
 ]
 
 [project.scripts]
